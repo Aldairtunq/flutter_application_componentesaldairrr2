@@ -76,9 +76,16 @@ class HomePage extends StatelessWidget {
                 title: "Trabajo",
                 toPage: TrabajoPage(),
               ),
-
-
-
+             
+              ItemComponentWidget(
+                title: "Inputs",
+                toPage: InputPage(),
+              ),
+              ItemComponentWidget(
+                title: "Selection",
+                toPage: SelectionPage(),
+              
+              ),
             ],
           ),
         ),

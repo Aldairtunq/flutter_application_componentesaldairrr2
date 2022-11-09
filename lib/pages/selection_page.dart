@@ -33,7 +33,7 @@ class _SelectionPageState extends State<SelectionPage> {
             TextField(
               decoration: InputDecoration(
                 icon: Icon(Icons.calendar_today),
-                labelText: "Ingrese fecha de nacimiento",
+                labelText: "FECHA NACIMIENTO",
                 hintText: '${date.year}/${date.month}/${date.day}',
               ),
               readOnly: true,
